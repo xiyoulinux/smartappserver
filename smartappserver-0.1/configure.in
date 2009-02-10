@@ -1,0 +1,32 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ(2.61)
+AC_INIT(smartappserver, 0.1, monan@21cn.com)
+AC_CONFIG_SRCDIR([inc/manage_responder.h])
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE(smartappserver,0.1)
+
+# Checks for programs.
+AC_PROG_CC
+
+# Checks for libraries.
+
+AC_CHECK_LIB([mysqlclient], [mysql_init],[],[exit 1])
+
+AC_CHECK_LIB([fcgi], [FCGI_Accept],[],[exit 1])
+
+AC_CHECK_LIB([cda], [pool_Create],[],[exit 1])
+
+AC_CHECK_LIB([dbo], [db_Connect],[],[exit 1])
+
+# Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS([stdlib.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_TYPE_SIZE_T
+
+# Checks for library functions.
+
+AC_OUTPUT([Makefile])

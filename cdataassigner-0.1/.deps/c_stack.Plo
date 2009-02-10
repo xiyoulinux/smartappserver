@@ -1,0 +1,48 @@
+c_stack.lo: src/c_stack.c inc/c_stack.h inc/c_array.h \
+  /usr/include/malloc.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-unknown-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/stdlib.h inc/c_define.h
+
+inc/c_stack.h:
+
+inc/c_array.h:
+
+/usr/include/malloc.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.3.3/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/stdlib.h:
+
+inc/c_define.h:

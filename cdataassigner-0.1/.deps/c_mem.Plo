@@ -1,0 +1,24 @@
+c_mem.lo: src/c_mem.c inc/c_mem.h /usr/include/malloc.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-unknown-linux-gnu/4.3.3/include/stddef.h \
+  inc/c_define.h
+
+inc/c_mem.h:
+
+/usr/include/malloc.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.3.3/include/stddef.h:
+
+inc/c_define.h:

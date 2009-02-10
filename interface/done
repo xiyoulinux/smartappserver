@@ -1,0 +1,2 @@
+sudo cp ./index.html ./script.js ./style.css /var/www
+sudo cp ./button/* /var/www/button

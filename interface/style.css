@@ -1,0 +1,76 @@
+body
+{
+	background-color:#FEF6F8;
+}
+
+#wrap
+{
+	min-width:480px;
+	width:90%;
+	margin:20px auto;
+	/*padding:30px 20px 0 0;*/
+}
+
+#screen
+{
+	margin:20px auto;
+	background:#FFFFFF;	
+	padding:10px 10px 10px 0;
+}
+
+#main
+{
+	width:80%;
+	padding:4px;
+	float:right ;
+}
+
+#header
+{
+	text-align:center;
+}
+
+#menu
+{
+	text-align:center;
+	width:90%;
+	padding:4px;
+}
+
+#sidebar
+{
+	/*background:#F5F8FA;*/
+	margin-right:74%;
+	
+}
+
+#login
+{
+	
+}
+
+#footer
+{
+	border-top:2px dotted #B74E07;
+	clear:both;
+}
+
+#select
+{
+	border-left:2px dashed #B74E07;
+}
+
+#edit
+{
+	border-left:2px dashed #B74E07;
+}
+
+#entry
+{
+	border-left:2px dashed #B74E07;
+}
+
+.entry
+{
+	border-left:2px dashed #B74E07;
+}
